@@ -1,0 +1,101 @@
+{
+    "sections": [
+        {
+            "class": "wildlife",
+            "content": {
+                "intro": {
+                    "mainTitle": "Department of Wildlife Conservation"
+                }
+            }
+        },
+        {
+            "class": "conservation",
+            "content": {
+                "paragraphs": [
+                    "The Wildlife Conservation Department of Sri Lanka plays a pivotal role in safeguarding the country's rich biodiversity and ensuring the sustainable management of its natural resources. Established to address the growing concerns of wildlife conservation, the department operates under the purview of the Ministry of Environment. Its primary objectives include the protection and preservation of native flora and fauna, the management of national parks and wildlife reserves, and the implementation of conservation programs.",
+                    "Key responsibilities of the Wildlife Conservation Department involve the formulation and enforcement of wildlife-related policies, conducting research to support conservation efforts, and collaborating with local and international organizations to address global conservation challenges. The department is actively involved in habitat restoration, wildlife rescue and rehabilitation, and educational initiatives aimed at raising awareness about the importance of preserving Sri Lanka's unique ecosystems.",
+                    "Through its dedicated efforts, the Wildlife Conservation Department contributes significantly to the conservation of endangered species, the restoration of ecosystems, and the promotion of sustainable practices. Its work aligns with broader global conservation goals and reflects the commitment of Sri Lanka to maintaining its natural heritage for future generations."
+                ]
+            }
+        },
+        {
+            "class": "wildlife",
+            "content": {
+                "intro": {
+                    "mainTitle": "Gallery of Protected Areas"
+                }
+            }
+        },
+        {
+            "class": "protected",
+            "content": {
+                "imageSections": [
+                    {
+                        "images": [
+                            {
+                                "src": "img/riti.jpg",
+                                "alt": "Protected Areas Image",
+                                "title": "Strict Natural Reserve (Ritigala)"
+                            },
+                            {
+                                "src": "img/SRI-LANKA-YALA-ELEPHANTS-137561302383940_0_500.jpg",
+                                "alt": "Protected Areas Image",
+                                "title": "National Park (Yala)"
+                            }
+                        ]
+                    },
+                    {
+                        "images": [
+                            {
+                                "src": "img/wilpaththu-national-park.jpg",
+                                "alt": "Protected Areas Image",
+                                "title": "Nature Reserve"
+                            },
+                            {
+                                "src": "img/minneriya-safari-2-1.jpg",
+                                "alt": "Protected Areas Image",
+                                "title": "Jungle Corridor (Minneriya)"
+                            }
+                        ]
+                    },
+                    {
+                        "images": [
+                            {
+                                "src": "img/hikkaduwa-coral-reef.jpg",
+                                "alt": "Protected Areas Image",
+                                "title": "Marine National Park (Hikkaduwa)"
+                            },
+                            {
+                                "src": "img/cover-for-Pigeon-Island-National-Park.webp",
+                                "alt": "Protected Areas Image",
+                                "title": "Marine Reserves"
+                            }
+                        ]
+                    },
+                    {
+                        "images": [
+                            {
+                                "src": "img/360_F_632233137_ldei4NU7V3VZbdWt47FBQNcShH2zbr0r.jpg",
+                                "alt": "Protected Areas Image",
+                                "title": "Buffer zone (Sinharaja)"
+                            },
+                            {
+                                "src": "img/adams peak.jpg",
+                                "alt": "Protected Areas Image",
+                                "title": "Adam's Bridge Marine National Park"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "class": "wildlife",
+            "content": {
+                "intro": {
+                    "mainTitle": "Map of the Wildlife Department"
+                }
+            }
+        }
+    ]
+}

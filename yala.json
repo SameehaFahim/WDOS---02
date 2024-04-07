@@ -1,0 +1,121 @@
+{
+    "main": {
+        "sections": [
+            {
+                "class": "main-image",
+                "image_url": "assets/img/yala main 1.jpg",
+                "title": "Yala National Park"
+            },
+            {
+                "class": "park-introduction",
+                "sections": [
+                    {
+                        "class": "park-heading",
+                        "title": "Discover the Enchanting Wilderness of Yala National Park"
+                    },
+                    {
+                        "class": "park-description",
+                        "content": [
+                            {
+                                "p1": "Embark on a captivating journey into the heart of nature at Yala National Park, situated in the southeastern part of Sri Lanka. Renowned for its breathtaking biodiversity, the park spans a varied terrain, encompassing lush greenery, expansive grasslands, and scenic coastal areas. Yala stands out as the second-largest national park in the country, offering a mesmerizing backdrop for wildlife enthusiasts and adventure seekers.",
+                                "p2": "One of Yala's most iconic residents is the Sri Lankan Leopard, a majestic and elusive big cat that adds an air of mystery to the park. As you explore the diverse ecosystems, you may encounter herds of elephants, vibrant bird species, and various other wildlife unique to this region. The park's natural beauty, coupled with the thrill of spotting elusive leopards, creates an unforgettable experience for those eager to immerse themselves in the enchanting wilderness of Yala National Park."
+                            }
+                        ]
+                    },
+                    {
+                        "class": "image",
+                        "image_url": "assets/img/yalaaa.jpg"
+                    }
+                ]
+            },
+            {
+                "class": "card",
+                "sections": [
+                    {
+                        "class": "content",
+                        "sections": [
+                            {
+                                "class": "wildlife",
+                                "title": "How Hot is Yala?"
+                            },
+                            {
+                                "class": "other-image",
+                                "image_url": "assets/img/Yala-Sunset.jpg"
+                            },
+                            {
+                                "class": "description",
+                                "content": [
+                                    {
+                                        "p1": "Experience the scintillating heat of Yala National Park, where the sun-drenched landscapes create an immersive and intense atmosphere. Yala, situated in the arid southeastern region of Sri Lanka, boasts a climate characterized by high temperatures, especially during the dry season. The sun beats down on the vast savannahs and dense foliage, casting a warm glow on the rugged terrain.",
+                                        "p2": "Visitors to Yala are greeted by a symphony of sounds echoing through the heat, from the rustle of leaves to the calls of exotic birds. The air shimmers with the heat, enhancing the adventure as you traverse the park in search of wildlife. Despite the intensity of the sun, the allure of Yala lies in its ability to showcase the resilience of life in the midst of the heat, making every safari an unforgettable journey into the heart of a truly wild and untamed landscape."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "class": "card",
+                "sections": [
+                    {
+                        "class": "content",
+                        "sections": [
+                            {
+                                "class": "wildlife",
+                                "title": "Visiting Yala National Park"
+                            },
+                            {
+                                "class": "other-image",
+                                "image_url": "assets/img/yala visit.jpg"
+                            },
+                            {
+                                "class": "description",
+                                "content": [
+                                    {
+                                        "p1": "Embark on an extraordinary adventure by visiting Yala National Park, a gem nestled in the southeastern part of Sri Lanka. Renowned for its rich biodiversity and stunning landscapes, Yala offers a captivating experience for nature enthusiasts and wildlife lovers alike. As you step into this natural haven, you'll find yourself surrounded by lush greenery, expansive grasslands, and a diverse array of ecosystems.",
+                                        "p2": "The thrill of a Yala safari lies in the anticipation of encountering its iconic residents, including the elusive Sri Lankan leopard, elephants, and an abundance of bird species. The park's untamed beauty and the opportunity to witness wildlife in their natural habitat make it a must-visit destination. Whether you're a seasoned traveler or a first-time explorer, Yala National Park promises a journey filled with awe-inspiring moments, creating lasting memories of the enchanting wilderness that defines this remarkable corner of the world."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "class": "park-introduction",
+                "sections": [
+                    {
+                        "class": "park-heading",
+                        "title": "Wildlife in Yala National Park"
+                    },
+                    {
+                        "class": "image-container",
+                        "image_urls": [
+                            "assets/img/yala 5.webp",
+                            "assets/img/yala 6.jpg",
+                            "assets/img/yala 8.jpg"
+                        ]
+                    },
+                    {
+                        "class": "wilpattu-wildlife",
+                        "content": [
+                            {
+                                "class": "wilpattu-wildlife-1",
+                                "content": [
+                                    "<b>Delve into the mesmerizing world of Yala National Park, where the wilderness orchestrates a symphony of diverse wildlife, creating a sanctuary for both iconic and lesser-known species. As you embark on a safari adventure through Yala, prepare to be captivated by the rich tapestry of flora and fauna that defines this renowned Sri Lankan wildlife haven.</b>",
+                                    "<b>Leopards, Lords of Yala's Jungles:</b> Yala holds the prestigious title of having one of the highest densities of leopards in the world. The park's thick jungles and expansive grasslands provide an ideal habitat for these elusive big cats. Lucky visitors may witness the breathtaking sight of leopards gracefully traversing their natural domain, adding an aura of mystery and excitement to the Yala experience.",
+                                    "<b>Elephants, Majestic Giants of Yala:</b> The gentle giants of Yala, the elephants, contribute to the park's allure. As they roam freely through the landscape, their presence adds a sense of majesty to the wilderness. Observing herds of elephants in their natural habitat is a testament to the park's commitment to preserving the natural behaviors of these magnificent creatures.",
+                                    "<b>Avian Extravaganza:</b> Yala is a haven for birdwatchers, boasting a diverse avian population with over 200 species. The lagoons and water bodies within the park attract a variety of birds, from colorful kingfishers to majestic eagles. The harmonious coexistence of aquatic and terrestrial habitats makes Yala a paradise for those seeking to witness the vibrant plumage and melodious calls of Sri Lanka's feathered residents.",
+                                    "<b>Safari Chronicles:</b> Embarking on a safari in Yala is like turning the pages of a wildlife chronicle. Each journey unveils a new chapter, where the sighting of leopards, elephants, and an array of other wildlife becomes a story etched in memory. Yala's diverse landscapes, including dense forests and serene lakes, set the stage for an immersive safari experience that unravels the secrets of the wild.",
+                                    "<b>Beyond the Icons:</b> While leopards and elephants take center stage, Yala shelters a mosaic of wildlife. Spotted deer, wild boar, crocodiles, and various species of lizards and amphibians contribute to the intricate balance of the ecosystem. Yala's commitment to biodiversity ensures that every corner of the park teems with life, creating a vibrant tableau of interconnected species.",
+                                    "<b>Yala National Park, with its captivating wildlife and diverse habitats, invites you to witness the untamed beauty of nature. The park's commitment to conservation ensures that each visitor becomes part of a larger narrative - one that celebrates the resilience and interconnectedness of the exquisite wildlife in Yala.</b>"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

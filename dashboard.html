@@ -1,0 +1,56 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+
+</head>
+
+<body x-data="dashboard()">
+    <h1>Welcome to the Dashboard!</h1>
+    <button x-on:click="openContentEditor">Edit Content</button>
+    <p id="dynamic-content">Dynamic Content Goes Here</p>
+
+    <button type="submit" id="logoutBtn">Logout</button>
+
+    <div x-show="isContentEditorOpen" class="modal" x-cloak>
+        <h2>Edit Content</h2>
+        <textarea x-model="editedContent" rows="5" cols="50"></textarea><br>
+        <button x-on:click="saveContent">Save</button>
+        <button x-on:click="closeContentEditor">Cancel</button>
+    </div>
+    <section id="exampleSection">
+        <h2>Subscriptions</h2>
+        <ul id="exampleList">
+
+        </ul>
+    </section>
+
+    <script>
+        function dashboard() {
+            return {
+                isContentEditorOpen: false,
+                editedContent: '',
+                openContentEditor() {
+                    this.editedContent = document.getElementById('dynamic-content').innerText;
+                    this.isContentEditorOpen = true;
+                },
+                saveContent() {
+                    document.getElementById('dynamic-content').innerText = this.editedContent;
+                    this.closeContentEditor();
+                },
+                closeContentEditor() {
+                    this.isContentEditorOpen = false;
+                }
+            };
+        }
+    </script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

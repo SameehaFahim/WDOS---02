@@ -1,0 +1,47 @@
+{
+    "imageSection": {
+        "heading": "Welcome to the Wildlife of Sri Lanka",
+        "imageSrc": "assets/img/Main image.jpg",
+        "imageAlt": "Sri Lankan Wildlife Image",
+        "heading2": "Embark on a virtual journey into the heart of Sri Lankan wildlife, where vibrant ecosystems and diverse habitats weave a rich tapestry of unique flora and fauna. Nestled in the Indian Ocean, this teardrop-shaped island is a haven for nature enthusiasts and wildlife lovers"
+    },
+    "subSections": [
+        {
+            "title": "Breathtaking Biodiversity",
+            "content": "Discover the incredible array of wildlife that calls Sri Lanka home. From majestic elephants roaming lush national parks to elusive leopards prowling through dense forests, the island's diverse landscapes offer a sanctuary for a wide range of species."
+        },
+        {
+            "title": "Elephants",
+            "content": "Delve into the world of the Asian elephant, an iconic and revered symbol of Sri Lankan wildlife. Learn about their habitats, behaviors, and the awe-inspiring annual gatherings that showcase the sheer majesty of these gentle giants."
+        },
+        {
+            "title": "Leopards of Sri Lanka",
+            "content": "Uncover the secrets of the Sri Lankan leopard, a subspecies renowned for its elusive nature. Explore the national parks, like Yala and Wilpattu, where lucky visitors may catch a glimpse of these magnificent big cats in their natural habitats."
+        },
+        {
+            "title": "Explore Protected Areas",
+            "content": "Embark on a virtual tour of Sri Lanka's national parks, wildlife sanctuaries, and forest reserves. Discover the unique features of each area and the extraordinary landscapes that contribute to the island's ecological diversity."
+        }
+    ],
+    "endSection": {
+        "content": "Join us in celebrating the wonders of Sri Lankan wildlife, where every creature, from the smallest amphibian to the largest mammal, plays a vital role in the delicate balance of nature. Whether you're a seasoned wildlife enthusiast or a curious explorer, Sri Lanka invites you to be captivated by the magic of its natural wonders."
+    },
+    "protectedAreas": {
+        "imageSrc": "assets/img/ares.jpg",
+        "title": "Protected Areas",
+        "content": "Sri Lanka boasts several protected areas that play a crucial role in conserving its diverse wildlife and ecosystems. These areas, including national parks, wildlife sanctuaries, and forest reserves, are essential for preserving the natural heritage of the island.",
+        "link": "https://www.dwc.gov.lk/protected-areas/"
+    },
+    "protectedSpecies": {
+        "imageSrc": "assets/img/species.jpg",
+        "title": "Protected Species",
+        "content": "Sri Lanka is home to a diverse range of wildlife, including several species that are considered protected due to their conservation status. The protection of these species is crucial for maintaining biodiversity and ensuring the sustainability of ecosystems.",
+        "link": "https://www.dwc.gov.lk/protected-species-2/"
+    },
+    "latestNews": {
+        "imageSrc": "assets/img/news.jpg",
+        "title": "Latest News",
+        "content": "In the 34 years from 1990 to April 2023, a total of 6,642 elephants have died. About 70% of them were killed by humans as a result of the human-elephant conflict. Meanwhile, 2,032 people were killed in elephant attacks in the 26 years from 1998 to April 2023.",
+        "link": "https://www.worldwildlife.org/species/elephant"
+    }
+}

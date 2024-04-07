@@ -1,0 +1,125 @@
+{
+    "main": {
+        "sections": [
+            {
+                "class": "main-image",
+                "image_url": "assets/img/willpattu main img 1.jpg",
+                "title": "Wilpattu National Park"
+            },
+            {
+                "class": "park-introduction",
+                "sections": [
+                    {
+                        "class": "park-heading",
+                        "title": "Discover the Enchanting Wilderness of Wilpattu National Park"
+                    },
+                    {
+                        "class": "park-description",
+                        "content": [
+                            {
+                                "p1": "Explore the enchanting wilderness of Wilpattu National Park, a pristine sanctuary nestled in the heart of Sri Lanka. Renowned for its untouched natural beauty, Wilpattu captivates visitors with its sprawling landscapes and diverse ecosystems.",
+                                "p2": "The park is home to a rich array of wildlife, including majestic leopards, elephants, and a myriad of bird species. Traverse through its serene lakes and dense forests, where every step unveils the untamed wonders of this captivating national park.",
+                                "p3": "Wilpattu invites you to witness the harmonious dance of nature, creating an unforgettable experience for nature enthusiasts and adventure seekers alike."
+                            }
+                        ]
+                    },
+                    {
+                        "class": "image",
+                        "image_url": "assets/img/pic 1.jpg"
+                    }
+                ]
+            },
+            {
+                "class": "card",
+                "sections": [
+                    {
+                        "class": "content",
+                        "sections": [
+                            {
+                                "class": "wildlife",
+                                "title": "How Hot is Wilpattu?"
+                            },
+                            {
+                                "class": "description",
+                                "content": [
+                                    {
+                                        "p1": "Wilpattu National Park, situated in a hot, semi-arid environment, experiences varying temperatures throughout the year. The temperature ranges from approximately 26°C to about 30°C. The North-east monsoon season, which occurs from September to December, is when Wilpattu receives most of its rainfall.",
+                                        "p2": "Despite its lush green appearance, especially during the monsoon season, Wilpattu's climate reflects the characteristics of a hot and semi-arid region. Visitors to Wilpattu should be prepared for warm temperatures, and the best time to explore the park is during the dry season when water levels are lower, potentially increasing wildlife sightings."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class": "other-image",
+                        "image_url": "assets/img/pic 2.webp"
+                    }
+                ]
+            },
+            {
+                "class": "card",
+                "sections": [
+                    {
+                        "class": "content",
+                        "sections": [
+                            {
+                                "class": "wildlife",
+                                "title": "Visiting Wilpattu National Park"
+                            },
+                            {
+                                "class": "description",
+                                "content": [
+                                    {
+                                        "p1": "Visiting Wilpattu National Park is a captivating journey into the heart of a pristine wilderness, beckoning nature enthusiasts with its diverse landscapes and rich biodiversity. Located on the northwest coast of Sri Lanka, Wilpattu offers a unique and immersive experience for wildlife lovers.",
+                                        "p2": "The park boasts a variety of ecosystems, from lush forests to scenic lakeshores, providing an ideal habitat for a wide range of species. Embarking on a safari in Wilpattu allows visitors to witness the harmonious coexistence of diverse wildlife, including elusive leopards, majestic elephants, sloth bears, and numerous bird species.",
+                                        "p3": "The untamed beauty of Wilpattu, characterized by its untouched landscapes and vibrant flora, makes it a must-visit destination for those seeking an enchanting encounter with nature."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "class": "other-image",
+                        "image_url": "assets/img/pic 3.jpg"
+                    }
+                ]
+            },
+            {
+                "class": "park-introduction",
+                "sections": [
+                    {
+                        "class": "park-heading",
+                        "title": "Wildlife in Wilpattu National Park"
+                    },
+                    {
+                        "class": "image-container",
+                        "image_urls": [
+                            "assets/img/wil 1.jpg",
+                            "assets/img/wil 2.jpg",
+                            "assets/img/wil 3.jpg"
+                        ]
+                    },
+                    {
+                        "class": "wilpattu-wildlife",
+                        "content": [
+                            {
+                                "class": "wilpattu-wildlife-1",
+                                "content": [
+                                    "<b>Wilpattu National Park, situated in the northwest of Sri Lanka, invites you to delve into its enchanting wilderness, characterized by a diverse array of flora and fauna. As you embark on a journey through this natural sanctuary, you'll encounter the following captivating wildlife:</b>",
+                                    "<b>Leopards:</b>Wilpattu is renowned for its thriving leopard population, making it a prime location for leopard sightings. The park's varied terrain, encompassing dense jungles and serene lakes, provides an ideal habitat for these elusive big cats. Visitors often find the thrill of spotting a leopard amid the lush greenery to be a highlight of their Wilpattu experience.",
+                                    "<b>Elephants:</b>While not as densely populated with elephants as some other national parks in Sri Lanka, Wilpattu is home to these majestic creatures. The park's expansive landscapes offer elephants ample space to roam, providing a more tranquil setting for observing their natural behavior.",
+                                    "<b>Sloth Bears:</b>Wilpattu is one of the few places in Sri Lanka where you may have the chance to encounter the elusive sloth bear. These shaggy-coated bears add a touch of mystery to the park's wildlife offerings. Observing sloth bears in their natural habitat is a rare and rewarding experience for wildlife enthusiasts.",
+                                    "<b>Deer:</b>The park is home to various deer species, including spotted deer, axis deer, and sambar deer. These graceful creatures roam freely through Wilpattu's picturesque landscapes, contributing to the park's overall aesthetic appeal.",
+                                    "<b>Birds:</b>For avid birdwatchers, Wilpattu is a paradise with over 230 recorded bird species. From vibrant kingfishers to majestic eagles, the park's avian residents create a symphony of colors and melodies. The diverse ecosystems within Wilpattu provide habitats for a wide variety of birdlife.",
+                                    "<b>Crocodiles:</b>Numerous lakes and water bodies within Wilpattu are inhabited by crocodiles. As you navigate through the park, keep a keen eye on the water's edge for these ancient reptiles. Their presence adds a touch of intrigue to the aquatic ecosystems of Wilpattu.",
+                                    "<b>Other Wildlife:</b>In addition to the charismatic megafauna, Wilpattu is home to water buffalo, wild boar, spotted deer, mongoose, and various species of lizards and amphibians. The park's ecological richness is a testament to the interconnected web of life that thrives in this unspoiled natural environment.",
+                                    "<b>Embark on a safari in Wilpattu National Park to witness the harmonious coexistence of diverse wildlife in a setting of pristine beauty and ecological significance.</b>"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

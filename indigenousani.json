@@ -1,0 +1,39 @@
+{
+    "sections": [
+        {
+            "title": "Indigenous Animals in Sri Lanka",
+            "content": [
+                {
+                    "p1": "Sri Lanka, an island nation teeming with biodiversity, boasts a rich tapestry of indigenous animals. Among its notable residents are the majestic Asian Elephant, a symbol deeply ingrained in the country's culture. These elephants roam freely in protected areas like Udawalawe and Minneriya National Parks, providing a captivating spectacle for wildlife enthusiasts.",
+                    "p2": "Adding to Sri Lanka's allure is the Sri Lankan Leopard, a subspecies known for its elusive nature. Thriving in habitats such as Yala National Park, these leopards contribute to the island's diverse ecosystems. The lush landscapes and protected areas make Sri Lanka a haven for various species, each playing a vital role in the country's natural heritage.",
+                    "p3": "Beyond these, the island is home to a mosaic of indigenous animals, from vibrant bird species to unique reptiles and mammals. The conservation efforts in national parks and wildlife sanctuaries underscore Sri Lanka's commitment to preserving its native fauna.",
+                    "p4": "Explore the untamed beauty of Sri Lanka and witness the harmonious coexistence of indigenous animals in their natural habitats."
+                }
+            ]
+        },
+        {
+            "title": "Yala National Park and Wilpattu National Park",
+            "sub_section": {
+                "image_url": "assets/img/ssimg_210.jpg",
+                "title": "Exploring National Parks",
+                "content": [
+                    {
+                        "p1": "Immerse yourself in the beauty of Sri Lanka's national parks, where lush landscapes and diverse wildlife create a mesmerizing experience. Encounter herds of elephants, observe vibrant bird species and Leopards.",
+                        "p2": "Plan your visit and witness the natural splendor that these parks have to offer.",
+                        "p3": "Explore Yala National Park and Wilpattu National Park."
+                    }
+                ],
+                "links": [
+                    {
+                        "text": "Yala National Park",
+                        "url": "yala.html"
+                    },
+                    {
+                        "text": "Wilpattu National Park",
+                        "url": "wilpattu.html"
+                    }
+                ]
+            }
+        }
+    ]
+}
