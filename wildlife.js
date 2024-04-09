@@ -20,6 +20,7 @@ loginButton.addEventListener("click", () => {
     window.location.href = "login.html";
 });
 
+
 document.getElementById("wildNa1").innerHTML = data.wildlifeLocations[0].name;
 document.getElementById("r").innerText = data.wildlifeLocations[0].description[0].p1;
 document.getElementById("rr").innerHTML = data.wildlifeLocations[0].description[0].p2;
