@@ -2,6 +2,9 @@
 fetch("leopard.json")
     .then((response) => response.json())
     .then((data) => {
+        if (localStorage.getItem("loepardData")) {
+            return
+        }
         //local storage
         localStorage.setItem("leopardData", JSON.stringify(data));
     })
@@ -31,3 +34,16 @@ document.getElementById("leoTit1").innerHTML = data.main_sections[1].threats[0].
 document.getElementById("leoDes1").innerHTML = data.main_sections[1].threats[0].description;
 document.getElementById("leoTit2").innerHTML = data.main_sections[1].threats[1].title;
 document.getElementById("leoDes2").innerHTML = data.main_sections[1].threats[1].description;
+
+const editBtn = document.getElementById("editbtn");
+if (!localStorage.getItem("currentUser")) {
+    editBtn.classList.add("hiddenBtn");
+
+}
+editBtn.addEventListener("click", function () {
+    window.open(
+        "editor.html",
+        "Editor",
+        "width=600,height=400"
+    )
+});

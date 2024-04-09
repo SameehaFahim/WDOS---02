@@ -1,80 +1,345 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #03472c;
+}
+
+header {
+    background-color: #165e49;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 4px;
+    margin-left: 20px;
+}
+
+.navbar img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    border: 5px solid #0f0f0f;
+}
+
+.navbar img:hover {
+    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar img {
+        display: none;
+    }
+}
+
+.navbar h1 {
+    font-size: 30px;
+    margin: 1w0px;
+}
+
+.navbar h1 span {
+    color: #ffcc00;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 10px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f5ecec;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background-color: #0aad5e;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        text-align: right;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .menu a {
+        padding: 10px;
+        display: block;
+    }
+
+    .menu a:hover {
+        background-color: #20714e;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .description,
+    .how-hot-is-yala,
+    .visiting-yala,
+    .yala {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .yala p,
+    .yala b {
+        font-size: 14px;
+    }
+}
+
+footer1 {
+    background-color: #333;
+    color: #000000;
+    padding: 40px 0;
     text-align: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 80px auto 50px;
+.footer1-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #0aad5e;
+    padding-top: 10px;
+    margin-left: 0px;
+
+}
+
+.footer1-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.footer1-content h3 {
+    color: #04452b;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer1-content p {
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.list a:hover {
+    color: #ffffff;
+}
+
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-right: -15px;
+}
+
+.social-icons li {
+    margin-right: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    background-color: #fff;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px) {
+    .footer1-container {
+        flex-direction: column;
+    }
+
+    .footer1-content {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+.logo {
+    font-size: 2.5em;
+    margin: 0;
+    padding-left: 15px;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+
+
+.social-icons a:hover img {
+    transform: scale(1.3);
+}
+
+#container {
+    width: 800px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(24, 36, 23, 0.624);
+    height: 300px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
 }
 
-
-h1 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
+#dashtopic {
+    color: #15ac21;
+    text-align: center;
+    margin-top: 30px;
 }
 
+#logoutbtn {
+    text-align: center;
+    /* Align button to the center */
+    margin-top: 10px;
+    /* Add margin for spacing */
+    margin-bottom: 10px;
+}
 
-button {
+#logoutBtn {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
+    /* Adding transition effect */
 }
 
-button:hover {
+#logoutBtn:hover {
     background-color: #0056b3;
-}
-
-
-.modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-textarea {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#exampleSection {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-#exampleSection h2 {
-    color: #333;
-    text-align: center;
-}
-
-#exampleList {
-    list-style-type: none;
-    padding: 0;
-}
-
-#exampleList li {
-    background-color: #ddd;
-    margin-bottom: 5px;
-    padding: 10px;
-}
-
-#exampleList li:hover {
-    background-color: #ccc;
+    /* Changing background color on hover */
 }

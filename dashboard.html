@@ -7,17 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dashboard.css">
     <title>Dashboard</title>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+
 
 </head>
+<header>
+    <nav>
+        <div class="navbar">
+            <img src="img/logo 1.png" alt="Sri Lankan Wildlife LOGO">
+            <h1>Sri Lankan<span>Wildlife</span></h1>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wildlife.html">Sri Lankan Wildlife</a></li>
+            <li><a href="department.html">Department of Wildlife</a></li>
+            <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+            <li><a href="indigenousani.html">Animals in Sri Lanka</a></li>
+            <button class="login-btn">Login</button>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+    </nav>
+</header>
+
+<script>
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+        menu.classList.toggle('show');
+    }
+</script>
 
 <body x-data="dashboard()">
-    <h1>Welcome to the Dashboard!</h1>
-    <button x-on:click="openContentEditor">Edit Content</button>
-    <p id="dynamic-content">Dynamic Content Goes Here</p>
+    <h1 id="dashtopic">Welcome to the Dashboard!</h1>
+    <div id="container">
+        <h2 class="dashboardTitle">People who are registered to the newsletter;</h2>
+        <ul id="newsletter_emails"></ul>
+    </div>
 
-    <button type="submit" id="logoutBtn">Logout</button>
+    <div id="logoutbtn"><button type="submit" id="logoutBtn">Logout</button></div>
 
+    <!-- 
     <div x-show="isContentEditorOpen" class="modal" x-cloak>
         <h2>Edit Content</h2>
         <textarea x-model="editedContent" rows="5" cols="50"></textarea><br>
@@ -28,29 +57,51 @@
         <h2>Subscriptions</h2>
         <ul id="exampleList">
 
-        </ul>
+        </ul> -->
     </section>
 
-    <script>
-        function dashboard() {
-            return {
-                isContentEditorOpen: false,
-                editedContent: '',
-                openContentEditor() {
-                    this.editedContent = document.getElementById('dynamic-content').innerText;
-                    this.isContentEditorOpen = true;
-                },
-                saveContent() {
-                    document.getElementById('dynamic-content').innerText = this.editedContent;
-                    this.closeContentEditor();
-                },
-                closeContentEditor() {
-                    this.isContentEditorOpen = false;
-                }
-            };
-        }
-    </script>
+
+
+    <footer1>
+        <div class="footer1-container">
+            <div class="footer1-content">
+                <h3><u>Contact Us</u></h3>
+                <p>Email: sameehaf2005@gmail.com</p>
+                <p>Phone: 011-229-2290</p>
+                <p>Address: 74A, Gamsaba Road, Ambagaha Junction, Angoda</p>
+            </div>
+            <div class="footer1-content">
+                <h3><u>Quick Links</u></h3>
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wildlife.html">Sri Lankan Wildlife</a></li>
+                    <li><a href="department.html">Department of Wildlife</a></li>
+                    <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+                    <li><a href="indigenousani.html">Animals in Sri Lanka</a></li>
+                    <li><a href="yala.html">Yala National Park</a></li>
+                    <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                </ul>
+            </div>
+            <div class="footer1-content">
+                <h3><u>Follow Us</u></h3>
+                <ul class="social-icons">
+                    <li><a href="https://www.instagram.com/sameefahim.pvt?igsh=MXI0c2ZrbmhwbzB5aA==" target="_blank"
+                            title="Instagram"><img src="img/instagram-2-1-logo-svgrepo-com.svg" alt="Insta"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/sameeha-fahim-819023280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            target="_blank" title="LinkedIn"><img src="img/linkedin-svgrepo-com.svg" alt="linkedin"></a>
+                    </li>
+                    <li><a href="https://www.youtube.com/channel/UC2pg3xnMLMSFJ1hsmIuHPaQ" target="_blank"
+                            title="YouTube"><img src="img/social-youtube-svgrepo-com.svg" alt="youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer1>
+    <footer>
+        <p>&copy; All rights reserved.</p>
+    </footer>
     <script src="dashboard.js"></script>
+
 </body>
 
 </html>

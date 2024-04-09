@@ -2,6 +2,9 @@
 fetch("index.json")
     .then((response) => response.json())
     .then((data) => {
+        if (localStorage.getItem("indexData")) {
+            return
+        }
         //local storage
         localStorage.setItem("indexData", JSON.stringify(data));
     })
@@ -43,5 +46,17 @@ document.getElementById("indProtectedSpecies1").innerHTML = data.protectedSpecie
 document.getElementById("indLatestNews").innerHTML = data.latestNews.title;
 document.getElementById("indLatestNews1").innerHTML = data.latestNews.content;
 
+const editBtn = document.getElementById("editbtn");
+if (!localStorage.getItem("currentUser")) {
+    editBtn.classList.add("hiddenBtn");
+
+}
+editBtn.addEventListener("click", function () {
+    window.open(
+        "editor.html",
+        "Editor",
+        "width=600,height=400"
+    )
+});
 
 

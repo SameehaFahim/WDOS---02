@@ -1,6 +1,9 @@
 fetch("wilpattu.json")
     .then((response) => response.json())
     .then((data) => {
+        if (localStorage.getItem("wilpattuData")) {
+            return
+        }
         //local storage
         localStorage.setItem("wilpattuData", JSON.stringify(data));
     })
@@ -34,3 +37,15 @@ document.getElementById("wilHotconp4").innerHTML = data.main.sections[3].section
 document.getElementById("wilHotcon2").innerHTML = data.main.sections[4].sections[0].title;
 
 
+const editBtn = document.getElementById("editbtn");
+if (!localStorage.getItem("currentUser")) {
+    editBtn.classList.add("hiddenBtn");
+
+}
+editBtn.addEventListener("click", function () {
+    window.open(
+        "editor.html",
+        "Editor",
+        "width=600,height=400"
+    )
+});

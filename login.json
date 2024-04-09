@@ -9,7 +9,7 @@
         {
             "username": "user",
             "password": "user",
-            "role": "site_user",
+            "role": "user",
             "email": "user@user.com"
         }
     ]

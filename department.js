@@ -2,6 +2,9 @@
 fetch("department.json")
     .then((response) => response.json())
     .then((data) => {
+        if (localStorage.getItem("departmentData")) {
+            return
+        }
         //local storage
         localStorage.setItem("departmentData", JSON.stringify(data));
     })
@@ -30,3 +33,16 @@ document.getElementById("depSin").innerHTML = data.sections[3].content.imageSect
 document.getElementById("depAdam").innerHTML = data.sections[3].content.imageSections[3].images[1].title;
 
 document.getElementById("depMap").innerHTML = data.sections[4].content.intro.mainTitle;
+
+const editBtn = document.getElementById("editbtn");
+if (!localStorage.getItem("currentUser")) {
+    editBtn.classList.add("hiddenBtn");
+
+}
+editBtn.addEventListener("click", function () {
+    window.open(
+        "editor.html",
+        "Editor",
+        "width=600,height=400"
+    )
+});

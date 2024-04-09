@@ -1,6 +1,9 @@
 fetch("yala.json")
     .then((response) => response.json())
     .then((data) => {
+        if (localStorage.getItem("yalaData")) {
+            return
+        }
         //local storage
         localStorage.setItem("yalaData", JSON.stringify(data));
     })
@@ -31,3 +34,16 @@ document.getElementById("yalaHotconp3").innerHTML = data.main.sections[3].sectio
 
 
 document.getElementById("yalaHotcon2").innerHTML = data.main.sections[4].sections[0].title;
+
+const editBtn = document.getElementById("editbtn");
+if (!localStorage.getItem("currentUser")) {
+    editBtn.classList.add("hiddenBtn");
+
+}
+editBtn.addEventListener("click", function () {
+    window.open(
+        "editor.html",
+        "Editor",
+        "width=600,height=400"
+    )
+});

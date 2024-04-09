@@ -1,5 +1,15 @@
 let currentUser = localStorage.getItem("currentUser");
 
+
+// Logout
+document.getElementById("logoutBtn").addEventListener("click", function () {
+    // Clearing the currentUser from local storage
+    console.log("log")
+    localStorage.removeItem("currentUser");
+    // Redirecting to the login page 
+    window.location.href = "login.html";
+});
+
 if (currentUser == null) {
     // i can do whatever i want
 } else {
@@ -15,6 +25,9 @@ if (currentUser == null) {
             }
             return code;
         }
+
+        document.getElementById("newsletter_emails").innerHTML = list_generator(subscriptions);
+
         // Assuming subscriptions is retrieved from local storage and is an array of email addresses
         const subscriptions = JSON.parse(localStorage.getItem("subscriptions"));
 
@@ -27,11 +40,3 @@ if (currentUser == null) {
         }
     }
 }
-
-// Logout
-document.getElementById("logoutBtn").addEventListener("click", function () {
-    // Clear the current user from local storage
-    localStorage.removeItem("CurrentUser");
-    // Redirect to the login page or perform any other necessary actions
-    window.location.href = "login.html";
-});

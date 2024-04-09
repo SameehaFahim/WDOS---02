@@ -3,38 +3,62 @@
         {
             "name": "Udawalawe National Park",
             "image": "assets/img/Untitled design (2).png",
-            "description": "Udawalawe National Park, situated in southern Sri Lanka, is a wildlife haven spanning 30,821 hectares...",
-            "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31718.141598695238!2d80.7977053472927!3d6.4238857382809655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae40750763484ed%3A0x302cc7e3f95389b5!2sUdawalawa!5e0!3m2!1sen!2slk"
+            "description": [
+                {
+                    "p1": "Udawalawe National Park, situated in southern Sri Lanka, is a wildlife haven spanning 30,821 hectares. Established in 1972, the park is renowned for its high concentration of Asian elephants. The diverse landscape, featuring grasslands and the Udawalawe Reservoir, provides a scenic backdrop for thrilling safaris.",
+                    "p2": "Visitors can witness not only elephants but also buffalo, deer, leopards, and a variety of bird species. The Elephant Transit Home, caring for orphaned elephant calves, adds to the park's conservation efforts. With its accessible location and rich biodiversity, Udawalawe offers a compact yet rewarding wildlife experience."
+                }
+            ]
         },
         {
             "name": "Royal Botanical Gardens",
             "image": "assets/img/Untitled design.png",
-            "description": "The Royal Botanical Gardens in Peradeniya, Sri Lanka, established in 1821, is a lush oasis of natural beauty...",
-            "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7594765376057!2d80.59405827330819!3d7.268189292738772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae36890ae2f95fd%3A0x92ce8ec2bf791233!2sRoyal%20Botanic%20Gardens%2C%20Peradeniya!5e0!3m2!1sen!2slk"
+            "description": [
+                {
+                    "p1": "The Royal Botanical Gardens in Peradeniya, Sri Lanka, established in 1821, is a lush oasis of natural beauty spanning 147 acres. Located near Kandy, it features a diverse collection of plant species, including a renowned orchid house, giant bamboo, and the iconic Cannonball Tree.",
+                    "p2": "The gardens' historical significance, coupled with its picturesque landscapes and the soothing presence of the Mahaweli River, makes it a tranquil haven for visitors. Notable attractions such as the Great Circle and Bamboo Avenue contribute to the gardens' reputation as a must-visit destination for nature lovers and those seeking a serene escape in the heart of Sri Lanka."
+                }
+            ]
         },
         {
             "name": "Horton Plains National Park",
             "image": "assets/img/Untitled design - Copy.png",
-            "description": "Horton Plains National Park, nestled in the central highlands of Sri Lanka, is a unique and captivating destination...",
-            "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6740385671706!2d80.79975837330217!3d6.809445993188103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk"
+            "description": [
+                {
+                    "p1": "Horton Plains National Park, nestled in the central highlands of Sri Lanka, is a unique and captivating destination. Established in 1988, the park spans approximately 3,169 hectares and is characterized by its rolling grasslands, misty landscapes, and diverse ecosystems. The highlight of the park is World's End, a sheer cliff that offers breathtaking views of the surrounding valleys.",
+                    "p2": "Baker's Falls, another notable attraction, adds to the park's allure with its cascading beauty. Horton Plains is rich in biodiversity, hosting a variety of flora and fauna, including the elusive sambar deer and numerous bird species. The park's tranquil ambiance and stunning vistas make it a favorite among hikers and nature enthusiasts, providing a memorable experience in the heart of Sri Lanka's hill country."
+                }
+            ]
         },
         {
             "name": "Kaudulla National Park",
             "image": "assets/img/Untitled design (2).png",
-            "description": "Kaudulla National Park, situated in the North Central Province of Sri Lanka, is a wildlife sanctuary known for its picturesque landscapes and diverse fauna...",
-            "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31598.361990183526!2d80.86028538677277!3d8.122318067711438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb61f06b945489%3A0x745a344d553516b!2sKaudulla%20National%20Park!5e0!3m2!1sen!2slk"
+            "description": [
+                {
+                    "p1": "Kaudulla National Park, situated in the North Central Province of Sri Lanka, is a wildlife sanctuary known for its picturesque landscapes and diverse fauna. Established in 2002, the park covers approximately 6,900 hectares and is most renowned for its large population of Asian elephants.",
+                    "p2": "The Kaudulla Tank, a man-made reservoir within the park, is a focal point for wildlife during the dry season, attracting elephants, deer, and a variety of bird species. The park provides a unique safari experience, allowing visitors to witness the majestic elephants in their natural habitat against the backdrop of scenic wilderness. With its accessibility and rich biodiversity, Kaudulla National Park is a must-visit destination for those seeking an authentic wildlife encounter in Sri Lanka."
+                }
+            ]
         },
         {
             "name": "Sinharaja Forest Reserve",
             "image": "assets/img/Untitled design (3).png",
-            "description": "Sinharaja Forest Reserve, located in the southwestern part of Sri Lanka, is a UNESCO World Heritage Site and one of the last remaining rainforests in the country...",
-            "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15859.802213292149!2d80.45379151767312!3d6.40037317157981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e2161cf9a38d%3A0x813bfa0e6b19f787!2sThe%20Forest%20-%20Sinharaja!5e0!3m2!1sen!2slk"
+            "description": [
+                {
+                    "p1": "Sinharaja Forest Reserve, located in the southwestern part of Sri Lanka, is a UNESCO World Heritage Site and one of the last remaining rainforests in the country. Covering an area of about 11,187 hectares, this tropical forest is a biodiversity hotspot, boasting a rich variety of flora and fauna, including many endemic species. The reserve is known for its lush greenery, diverse birdlife, and rare plant species.",
+                    "p2": "It is a haven for nature enthusiasts and researchers alike. Sinharaja is home to the elusive purple-faced langur, various bird species, and an array of vibrant butterflies. The forest's importance for conservation and its ecological significance make it a captivating destination for those seeking an immersive experience in Sri Lanka's natural wonders."
+                }
+            ]
         },
         {
             "name": "Minneriya National Park",
             "image": "assets/img/Untitled design (16).png",
-            "description": "Minneriya National Park, nestled in Sri Lanka's North Central Province, is a biodiversity hotspot celebrated for its diverse ecosystems...",
-            "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.837869019661!2d80.8420953731318!3d8.015649604031232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb6009a20be05d%3A0xa4d046f2f06b05f5!2sMinneriya%20National%20Park!5e0!3m2!1sen!2slk"
+            "description": [
+                {
+                    "p1": "Minneriya National Park, nestled in Sri Lanka's North Central Province, is a biodiversity hotspot celebrated for its diverse ecosystems. Home to the renowned Gathering where hundreds of Asian elephants assemble around the Minneriya Tank during the dry season, the park offers a mesmerizing spectacle.",
+                    "p2": "This natural phenomenon underscores the park's significance, providing a captivating experience for visitors and showcasing the country's incredible wildlife diversity. The park's lush landscapes and vibrant birdlife further contribute to its allure, making it a must-visit destination for nature enthusiasts and wildlife lovers."
+                }
+            ]
         }
     ]
 }

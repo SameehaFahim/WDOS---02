@@ -2,6 +2,9 @@
 fetch("wildlife.json")
     .then((response) => response.json())
     .then((data) => {
+        if (!localStorage.getItem("wildlifeData")) {
+            return
+        }
         //local storage
         localStorage.setItem("wildlifeData", JSON.stringify(data));
     })
@@ -18,19 +21,40 @@ loginButton.addEventListener("click", () => {
 });
 
 document.getElementById("wildNa1").innerHTML = data.wildlifeLocations[0].name;
-document.getElementById("wildDes1").innerHTML = data.wildlifeLocations[0].description;
+document.getElementById("r").innerText = data.wildlifeLocations[0].description[0].p1;
+document.getElementById("rr").innerHTML = data.wildlifeLocations[0].description[0].p2;
+
 
 document.getElementById("wildNa2").innerHTML = data.wildlifeLocations[1].name;
-document.getElementById("wildDes2").innerHTML = data.wildlifeLocations[1].description;
+document.getElementById("s").innerHTML = data.wildlifeLocations[1].description[0].p1;
+document.getElementById("ss").innerHTML = data.wildlifeLocations[1].description[0].p2;
 
 document.getElementById("wildNa3").innerHTML = data.wildlifeLocations[2].name;
-document.getElementById("wildDes3").innerHTML = data.wildlifeLocations[2].description;
+document.getElementById("t").innerHTML = data.wildlifeLocations[2].description[0].p1;
+document.getElementById("tt").innerHTML = data.wildlifeLocations[2].description[0].p2;
 
 document.getElementById("wildNa4").innerHTML = data.wildlifeLocations[3].name;
-document.getElementById("wildDes4").innerHTML = data.wildlifeLocations[3].description;
+document.getElementById("u").innerHTML = data.wildlifeLocations[3].description[0].p1;
+document.getElementById("uu").innerHTML = data.wildlifeLocations[3].description[0].p2;
 
 document.getElementById("wildNa5").innerHTML = data.wildlifeLocations[4].name;
-document.getElementById("wildDes5").innerHTML = data.wildlifeLocations[4].description;
+document.getElementById("v").innerHTML = data.wildlifeLocations[4].description[0].p1;
+document.getElementById("vv").innerHTML = data.wildlifeLocations[4].description[0].p2;
 
 document.getElementById("wildNa6").innerHTML = data.wildlifeLocations[5].name;
-document.getElementById("wildDes6").innerHTML = data.wildlifeLocations[5].description;
+document.getElementById("w").innerHTML = data.wildlifeLocations[5].description[0].p1;
+document.getElementById("ww").innerHTML = data.wildlifeLocations[5].description[0].p2;
+
+
+const editBtn = document.getElementById("editbtn");
+if (!localStorage.getItem("currentUser")) {
+    editBtn.classList.add("hiddenBtn");
+
+}
+editBtn.addEventListener("click", function () {
+    window.open(
+        "editor.html",
+        "Editor",
+        "width=600,height=400"
+    )
+});

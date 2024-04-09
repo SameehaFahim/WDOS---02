@@ -2,6 +2,9 @@
 fetch("indigenousani.json")
     .then((response) => response.json())
     .then((data) => {
+        if (localStorage.getItem("indigenousaniData")) {
+            return
+        }
         //local storage
         localStorage.setItem("indigenousaniData", JSON.stringify(data));
     })
@@ -27,3 +30,16 @@ document.getElementById("aniTit2").innerHTML = data.sections[1].title;
 document.getElementById("aniTitSub").innerHTML = data.sections[1].sub_section.title;
 document.getElementById("aniTitCon1").innerHTML = data.sections[1].sub_section.content[0].p1;
 document.getElementById("aniTitCon2").innerHTML = data.sections[1].sub_section.content[0].p2;
+
+const editBtn = document.getElementById("editbtn");
+if (!localStorage.getItem("currentUser")) {
+    editBtn.classList.add("hiddenBtn");
+
+}
+editBtn.addEventListener("click", function () {
+    window.open(
+        "editor.html",
+        "Editor",
+        "width=600,height=400"
+    )
+});
