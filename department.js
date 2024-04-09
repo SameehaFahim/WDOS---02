@@ -6,7 +6,7 @@ fetch("department.json")
             return
         }
         //local storage
-        localStorage.setItem("departmentData", JSON.stringify(data));
+        localStorage.setItem("departmentData", JSON.stringify(content));
     })
     .catch((error) => {
         console.error("Error", error);

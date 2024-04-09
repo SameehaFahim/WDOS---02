@@ -6,7 +6,7 @@ fetch("index.json")
             return
         }
         //local storage
-        localStorage.setItem("indexData", JSON.stringify(data));
+        localStorage.setItem("indexData", JSON.stringify(content));
     })
     .catch((error) => {
         console.error("Error", error);

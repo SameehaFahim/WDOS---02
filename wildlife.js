@@ -6,7 +6,7 @@ fetch("wildlife.json")
             return
         }
         //local storage
-        localStorage.setItem("wildlifeData", JSON.stringify(data));
+        localStorage.setItem("wildlifeData", JSON.stringify(content));
     })
     .catch((error) => {
         console.error("Error", error);

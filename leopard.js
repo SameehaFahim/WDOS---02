@@ -6,7 +6,7 @@ fetch("leopard.json")
             return
         }
         //local storage
-        localStorage.setItem("leopardData", JSON.stringify(data));
+        localStorage.setItem("leopardData", JSON.stringify(content));
     })
     .catch((error) => {
         console.error("Error", error);

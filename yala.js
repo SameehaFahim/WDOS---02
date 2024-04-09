@@ -5,7 +5,7 @@ fetch("yala.json")
             return
         }
         //local storage
-        localStorage.setItem("yalaData", JSON.stringify(data));
+        localStorage.setItem("yalaData", JSON.stringify(content));
     })
     .catch((error) => {
         console.error("Error", error);

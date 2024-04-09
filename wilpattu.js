@@ -5,7 +5,7 @@ fetch("wilpattu.json")
             return
         }
         //local storage
-        localStorage.setItem("wilpattuData", JSON.stringify(data));
+        localStorage.setItem("wilpattuData", JSON.stringify(content));
     })
     .catch((error) => {
         console.error("Error", error);

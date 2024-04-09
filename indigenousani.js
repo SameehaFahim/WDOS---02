@@ -6,7 +6,7 @@ fetch("indigenousani.json")
             return
         }
         //local storage
-        localStorage.setItem("indigenousaniData", JSON.stringify(data));
+        localStorage.setItem("indigenousaniData", JSON.stringify(content));
     })
     .catch((error) => {
         console.error("Error", error);
