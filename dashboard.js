@@ -5,7 +5,7 @@ let currentUser = localStorage.getItem("currentUser");
 document.getElementById("logoutBtn").addEventListener("click", function () {
     // Clearing the currentUser from local storage
     console.log("log")
-    localStorage.removeItem("currentUser");
+     localStorage.removeItem("currentUser");
     // Redirecting to the login page 
     window.location.href = "login.html";
 });
